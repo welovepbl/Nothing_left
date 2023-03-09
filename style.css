@@ -5,13 +5,13 @@
 	font-family:sans-serif;
 
 }
-.hero{
-	height: 100vh;
-	width: 100;
-	background-color:#ffc973;
-	background-size: cover;
-	background-position: center;
+
+body{
+background-size: cover;
+
 }
+
+
 nav{
 	display: flex;
 	align-items: center;
@@ -22,7 +22,7 @@ nav{
  }
 
 .logo{
-	size: 5px;
+	
      
   }
 nav ul li{
@@ -62,7 +62,70 @@ button:hover{
 
 }
 
-body{
-background-image: url(D:\bg.jpg);
+.row{
+display: flex;
+height: 88%;
+align-items: center;
+}
+
+.col{
+flex-basis:47%;
+padding: 10px 110px;
+}
+
+
+h1{
+color: #fff;
+font-size: 100px;
+}
+
+p{
+color: #fff;
+font-size: 12px;
+line-height: 20;
+padding-top: 5;
+}
+
+h4{
+text-align: center;
+padding:195px 14px;
+color: white;
+text-shadow: 0px 0px 2px black;
+}
+
+.card{
+width: 200px;
+height:230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-position: center;
+background-size: cover;
+padding-left: 0%;
+padding-right:0%;
+transition: transform 0.5s;
+}
+
+.card1{
+background-image: url(yamaha.jpg);
+}
+
+.card2{
+background-image: url(gibson.webp);
+}
+
+.card3{
+background-image: url(guild.webp);
+}
+
+.card4{
+background-image: url(fender.webp);
+}
+
+.card:hover{
+transform: translateY(-10px);
 
 }
